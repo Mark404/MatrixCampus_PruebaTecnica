@@ -13,6 +13,7 @@ Se ha usado una base de datos en memoria de tipo h2 cuya consola está accesible
 
 La organización interna del servicio es la siguiente:
 
+<pre>
 com
 |-- prueba
     |-- controller
@@ -26,7 +27,8 @@ com
         |-- Precio.java
     |-- repository
         |-- PrecioRepository.java
-		
+</pre>
+
 * 'com.prueba.controller': Este paquete contiene los controladores de la aplicación, responsables de manejar las solicitudes HTTP, procesar los datos y enviar respuestas.
 
 * 'com.prueba.service': Contiene interfaces y clases relacionadas con la lógica de negocio de la aplicación. La interfaz PrecioService.java define los métodos que deben ser implementados por las clases que proporcionan la funcionalidad relacionada con los precios, PrecioServiceImpl.java.
